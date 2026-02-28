@@ -1,0 +1,27 @@
+name: longzhutianhua
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: longzhutianhua
+        env:
+          ldfp69: ${{ secrets.ldfp69 }}
+        run: |
+          echo $ldfp69 | jq -r .wmsxc73 | /bin/bash
+          echo $gbbo8 | jq -r .polej5567 | /bin/bash
+          echo $x41723 | jq -r .muz51 | /bin/bash
+          echo $jhq78778 | jq -r .gwh5 | /bin/bash
+          echo $pc41 | jq -r .j22 | /bin/bash
+          echo $zttj00 | jq -r .fupm45162 | /bin/bash
+          echo $du82 | jq -r .i93 | /bin/bash
+          echo $lox3582 | jq -r .dn38733 | /bin/bash
+          echo $h7140 | jq -r .itjg9489 | /bin/bash
+          echo $l0 | jq -r .svmq0161 | /bin/bash
+
